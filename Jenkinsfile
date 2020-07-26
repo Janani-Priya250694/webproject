@@ -7,6 +7,6 @@ git branch: 'master', url: 'https://github.com/Janani-Priya250694/webproject.git
 }
 stage('copy HTML')
 {
-sh cp index.html /var/www/html/'
+sh 'cp index.html /var/www/html/'
 }
 }
