@@ -9,4 +9,10 @@ stage('copy HTML')
 {
 sh 'cp index.html /var/www/html/'
 }
+
+stage('package')
+{
+sh 'echo completed'
+}
+
 }
